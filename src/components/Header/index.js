@@ -14,7 +14,7 @@ const Header = () => {
             <NavLink className="cont" to="/contact"><FontAwesomeIcon icon={faEnvelope}/></NavLink>
             <span className='vertical_line'>
               <a href='http://www.linkedin.com/'><FontAwesomeIcon icon={faLinkedin}/></a>
-              <a href='http://'><FontAwesomeIcon icon={faGithub}/></a>
+              <a href='http://github.com/barakah123'><FontAwesomeIcon icon={faGithub}/></a>
             </span>
         </nav>
     </div>
