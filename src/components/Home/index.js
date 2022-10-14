@@ -10,7 +10,7 @@ const Home = () => {
         <br className='stack'/> Frontend Developer 
     </h1>
     <p className="tc text">I am a very ambitious frontend developer looking for a role /
-        freelance opportunity to work with the latest technologies on diverse project. I love to build interactive applications
+        freelance opportunity to work on diverse project. I love to build interactive applications
         and responsive web design.
        
     </p>
