@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, rgb(56, 41, 138) 0%, rgb(12, 7, 44) 100%);
+  display: block;
+  overflow: hidden;
+}
+ 
+
+
+

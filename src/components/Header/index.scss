@@ -1,0 +1,91 @@
+.nav_bar {
+    background: linear-gradient(to right, rgb(18, 12, 53) 0%, rgb(58, 49, 129) 100%);
+
+}
+
+nav {
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 5rem;
+    padding-top: 0.5rem;
+   
+   a {
+    font-size: 20px;
+    color: rgb(45, 81, 245);
+    position: relative;
+    display: flex;
+    margin: 0.3rem;
+    text-decoration: none;
+    padding-left: 0.8rem;
+
+    i {
+        transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+        color:rgb(205, 205, 247);
+        svg {
+            opacity: 0;
+        }
+
+        &:after {
+            opacity:1;
+        }
+    }
+
+    &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        display: inline-block;
+        opacity: 0;
+        width: 100%;
+        
+    }
+
+    &:first-child{
+        &::after{
+            content: 'HOME';
+        }
+    }
+   }
+
+   a.proj {
+    &:after {
+        content: 'PROJECT';
+       
+    }
+    
+   }
+   a.skill {
+    &:after {
+    content: 'SKILLS';
+   }
+ }
+   a.cont {
+    &:after {
+    content: 'CONTACT';
+   }
+ }
+
+
+
+.vertical_line {
+        border-left: 3px solid rgb(8, 12, 250);       
+        height: 30px;
+        display: inline-block;
+        padding-left: 0.2rem;
+        margin-left: 1.6rem;
+
+        a {
+            display: inline-block;
+            font-size: 15px;
+    
+            &:hover svg {
+                color: rgb(149, 156, 218);
+            }
+        }
+    }
+}
