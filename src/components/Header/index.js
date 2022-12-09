@@ -8,13 +8,17 @@ const Header = () => {
   return (
     <div className='nav_bar'>
         <nav>
+          <div className='nav_'>
             <NavLink className="home" to="/"><FontAwesomeIcon icon={faHome}/></NavLink>
             <NavLink className="proj" to="/projects"><FontAwesomeIcon icon={faCode}/></NavLink>
             <NavLink className="skill"to="skills/"><FontAwesomeIcon icon={faGears}/></NavLink>
             <NavLink className="cont" to="/contact"><FontAwesomeIcon icon={faEnvelope}/></NavLink>
+            </div>
             <span className='vertical_line'>
-              <a href='http://www.linkedin.com/'><FontAwesomeIcon icon={faLinkedin}/></a>
-              <a href='http://github.com/barakah123'><FontAwesomeIcon icon={faGithub}/></a>
+              
+                <a href='http://www.linkedin.com/'><FontAwesomeIcon icon={faLinkedin}/></a>
+                <a href='http://github.com/barakah123'><FontAwesomeIcon icon={faGithub}/></a>
+             
             </span>
         </nav>
     </div>
